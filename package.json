@@ -6,6 +6,7 @@
   "homepage": "http://jozeflacko.github.io",
   "dependencies": {
     "axios": "^0.21.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-fontawesome": "^1.7.1",
@@ -14,6 +15,7 @@
     "sweetalert": "^2.1.2"
   },
   "scripts": {
+    "ssss": "npm run build && gh-pages -d build",
     "build:githubpage": "npm run build && npm run __moveBuildToDocs",
     "push:githubpage": "git subtree push --prefix build origin gh-pages",
     "start": "react-scripts-ts start",
