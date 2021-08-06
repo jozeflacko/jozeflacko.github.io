@@ -15,7 +15,7 @@
     "sweetalert": "^2.1.2"
   },
   "scripts": {
-    "ssss": "npm run build && gh-pages -d build",
+    "ssss": "npm run build && npm run __moveBuildToDocs && gh-pages -d docs",
     "build:githubpage": "npm run build && npm run __moveBuildToDocs",
     "push:githubpage": "git subtree push --prefix build origin gh-pages",
     "start": "react-scripts-ts start",
