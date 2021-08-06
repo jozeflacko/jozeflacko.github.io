@@ -1,6 +1,6 @@
 import IDetail from "../interfaces/IDetail";
 
-const yearsExperience = new Date().getFullYear() - new Date('2014').getFullYear() + (new Date().getMonth() > 7 ? 0 : -1);
+const yearsExperience = new Date().getFullYear() - new Date('2014').getFullYear() + (new Date().getMonth() > 6 ? 0 : -1);
 
 const introDetail: IDetail = {
     flipPhotos: [

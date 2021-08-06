@@ -16,7 +16,7 @@ export class WorkExperience implements IResult {
     }
 
     public getDescription(): string {
-        return "I just started a new challenge at Austrian Lotteries as a React/TypeScript developer";
+        return "I work at Austrian Lotteries as a Full-stack developer";
     }
 
     public getDetail() {

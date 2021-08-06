@@ -15,7 +15,7 @@ export const Navigations: Array<INavigation> = [
   {
     name:'Go to Resume',
     // view only link to drive
-    url:'https://docs.google.com/document/d/14LYgHpDHqbICLIP2PR2bUVdlP2QYOa_xBrMAM9U05ec/edit?usp=sharing',
+    url:'https://docs.google.com/document/d/1n76Eb8ocz5AdyZA1EnHKNgNhJAgirVoE-PKmUheCQ7s/edit?usp=sharing',
     title:'Download Resume as PDF'
   },
 ];
